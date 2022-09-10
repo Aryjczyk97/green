@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+	.hamburger {
+		display: none;
+	}
+
+	.nav {
+		padding: 0 2em;
+		display: flex;
+
+		&__items {
+			position: relative;
+			width: 70%;
+			flex-direction: row;
+			transform: translateX(0%);
+			top: 0;
+			height: 10vh;
+			transition: 0s;
+		}
+
+		&__item {
+			margin: 0px 0px;
+		}
+
+		&__logo h1 {
+			font-size: 3rem;
+		}
+	}
+
+	.header {
+		&__heading {
+			font-size: 2.2rem;
+		}
+
+		&__info {
+			font-weight: bold;
+			font-size: 2.4rem;
+		}
+	}
+
+	.aboutus {
+		&__box {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&__box-img {
+			width: 40%;
+		}
+
+		&__box-text {
+			width: 55%;
+		}
+
+		&__title {
+			margin-bottom: 0.5em;
+			font-size: 2.2rem;
+		}
+
+		&__text {
+			font-size: 1.7rem;
+		}
+	}
+
+	.offert {
+		&__box {
+			flex-direction: row;
+		}
+
+		&__card {
+			height: 320px;
+			padding: 2em;
+			margin-top: 2em;
+			margin-left: 1em;
+			width: 45%;
+			font-size: 1.5rem;
+		}
+
+		&__card-btn {
+			margin-top: 2em;
+		}
+	}
+
+	.offertpage {
+		&__box {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: $second-color;
+			
+		}
+
+		&__card {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			padding: 2em;
+			margin-top: 2em;
+			text-align: center;
+			box-shadow: 0px 0px 24px -3px rgba(66, 68, 90, 1);
+			border-radius: 20px;
+			width: 100%;
+			
+		}
+
+		&__card-shadow {
+			border-radius: 20px;
+		}
+
+	
+	}
+}

@@ -1,0 +1,122 @@
+@media (min-width: 992px) {
+	.nav {
+		&__items {
+			width: 50%;
+		}
+
+		&__item {
+			width: 100%;
+
+			font-size: 1.8rem;
+		}
+
+		&__logo h1 {
+			font-size: 3rem;
+		}
+	}
+
+	.header {
+		&__heading {
+			font-size: 2.4rem;
+		}
+
+		&__info {
+			font-weight: bold;
+			font-size: 2.8rem;
+		}
+	}
+
+	.aboutus {
+	
+
+		&__box-img {
+			width: 50%;
+		}
+
+		&__box-text {
+			width: 40%;
+		}
+
+		&__title {
+			margin-bottom: 0.5em;
+			font-size: 2.2rem;
+		}
+
+		&__text {
+			font-size: 1.7rem;
+		}
+	}
+
+    .info {
+   
+    
+   
+    
+        &__heading {
+            font-size: 3rem;
+            padding: 1em 5em;
+    
+            border: 1px solid white;
+        }
+    
+    }
+
+    .offert {
+		&__card {
+			height: 320px;
+            width: 30vw;
+			padding: 2em;
+			margin-top: 2em;
+			margin-left: 1em;
+			width: 45%;
+			font-size: 1.5rem;
+		}
+
+		&__card-btn {
+            
+			margin-top: 2em;
+		}
+
+       &__card-options {
+        align-items: center;
+       }
+
+        
+	}
+
+    .footer {
+        padding: 2em;
+        background-color: rgb(221, 218, 218);
+        
+       
+    
+        &__logo {
+            font-size: 6rem
+        }
+    
+        &__infos {
+           
+            padding: 3em;
+            margin-left: 2em;
+        }
+
+        &__title {
+            font-size: 2.3rem;
+        }
+    
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 3em
+        }
+    
+        &__info p {
+            margin-top:  1em;
+        }
+    
+
+
+  
+}
+}
