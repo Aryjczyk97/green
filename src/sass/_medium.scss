@@ -27,8 +27,6 @@
 	}
 
 	.aboutus {
-	
-
 		&__box-img {
 			width: 50%;
 		}
@@ -47,24 +45,19 @@
 		}
 	}
 
-    .info {
-   
-    
-   
-    
-        &__heading {
-            font-size: 3rem;
-            padding: 1em 5em;
-    
-            border: 1px solid white;
-        }
-    
-    }
+	.info {
+		&__heading {
+			font-size: 3rem;
+			padding: 1em 5em;
 
-    .offert {
+			border: 1px solid white;
+		}
+	}
+
+	.offert {
 		&__card {
 			height: 320px;
-            width: 30vw;
+			width: 30vw;
 			padding: 2em;
 			margin-top: 2em;
 			margin-left: 1em;
@@ -73,50 +66,57 @@
 		}
 
 		&__card-btn {
-            
 			margin-top: 2em;
 		}
 
-       &__card-options {
-        align-items: center;
-       }
-
-        
+		&__card-options {
+			align-items: center;
+		}
 	}
 
-    .footer {
-        padding: 2em;
-        background-color: rgb(221, 218, 218);
-        
-       
-    
-        &__logo {
-            font-size: 6rem
-        }
-    
-        &__infos {
-           
-            padding: 3em;
-            margin-left: 2em;
-        }
+	.footer {
+		padding: 2em;
+		background-color: rgb(221, 218, 218);
 
-        &__title {
-            font-size: 2.3rem;
-        }
-    
-        &__info {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            margin-left: 3em
-        }
-    
-        &__info p {
-            margin-top:  1em;
-        }
-    
+		&__logo {
+			font-size: 6rem;
+		}
 
+		&__infos {
+			padding: 3em;
+			margin-left: 2em;
+		}
 
-  
+		&__title {
+			font-size: 2.3rem;
+		}
+
+		&__info {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			margin-left: 3em;
+		}
+
+		&__info p {
+			margin-top: 1em;
+		}
+	}
+
+	.offertpage {
+
+	&__card-first {
+		
+		background-image: url('../img/forest-g099ac6a35_1920.jpg');
+	}
+
+	&__card-second {
+		
+		background-image: url('../img/the-blue-lagoon-g2f3700ba6_1920.jpg');
+	}
+	&__card-third {
+		
+		background-image: url('../img/birch-gd5f6e9bcd_1920.jpg');
+	}
 }
 }

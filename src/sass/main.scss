@@ -205,6 +205,7 @@ body {
 		margin-top: 2em;
 		text-align: center;
 		box-shadow: 0px 0px 24px -3px rgba(66, 68, 90, 1);
+		
 	}
 
 	&__card-title {
@@ -324,7 +325,10 @@ body {
 		flex-direction: column;
 		padding: 2em;
 		margin-top: 2em;
-		text-align: center;
+		background-position: center;
+		background-size: cover;
+		
+		
 		box-shadow: 0px 0px 24px -3px rgba(66, 68, 90, 1);
 	}
 
@@ -341,6 +345,10 @@ body {
 	&__text {
 		color: $second-color;
 		z-index: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 
 	&__card-first {
@@ -366,15 +374,20 @@ body {
 		margin-bottom: 0.2em;
 	}
 
-	&__card-options {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-	}
+
+
+
 
 	&__card-option {
 		padding: 0.2em;
+	}
+
+	.fa-check {
+		color: $third-color;
+	}
+
+	.fa-xmark {
+		color: $five-color;
 	}
 
 	&__card-btn {
@@ -392,6 +405,10 @@ body {
 		cursor: pointer;
 		transform: scale(1.2);
 	}
+
+	
+
+
 }
 
 @import './small';
